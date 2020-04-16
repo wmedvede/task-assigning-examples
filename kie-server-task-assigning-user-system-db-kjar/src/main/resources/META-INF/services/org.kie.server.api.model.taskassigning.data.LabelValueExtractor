@@ -1,0 +1,2 @@
+# Use this file for declaring all the kjar configured LabelValueExtractors
+org.kie.server.services.taskassigning.user.system.db.DBUserSystemSkillLabelValueExtractor

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.kie.server</groupId>
+    <artifactId>task-assigning-examples</artifactId>
+    <version>7.37.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>kie-server-task-assigning-user-system-simple-kjar</artifactId>
+  <packaging>kjar</packaging>
+
+  <name>kie-server-task-assigning-user-system-simple-kjar</name>
+  <description>KIE Execution Server User System Service Simple Kjar</description>
+
+  <dependencies>
+    <dependency>
+      <!-- kie-server or optaplanner dependencies must use provided scope -->
+      <groupId>org.kie.server</groupId>
+      <artifactId>kie-server-api</artifactId>
+      <version>${project.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <!-- kie-server or optaplanner dependencies must use provided scope -->
+      <groupId>org.kie.server</groupId>
+      <artifactId>kie-server-services-task-assigning-user-system-simple</artifactId>
+      <version>${project.version}</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.kie</groupId>
+        <artifactId>kie-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <version>${project.version}</version>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

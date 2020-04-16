@@ -1,0 +1,2 @@
+# Use this file for declaring all the kjar configured DBUserInitializers that will be made available for the DBUserSystemService
+org.kie.server.services.taskassigning.user.system.db.benchmarks.BenchmarksDBUsersInitializer
