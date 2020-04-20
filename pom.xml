@@ -14,5 +14,6 @@
     <module>kie-server-task-assigning-default-planner-kjar</module>
     <module>kie-server-task-assigning-user-system-simple-kjar</module>
     <module>kie-server-task-assigning-user-system-db-kjar</module>
+    <module>task-assigning-example-processes</module>
   </modules>
 </project>
