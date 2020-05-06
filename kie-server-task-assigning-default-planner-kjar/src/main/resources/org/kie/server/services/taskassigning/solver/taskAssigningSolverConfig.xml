@@ -8,7 +8,7 @@
   <daemon>true</daemon>
 
   <scoreDirectorFactory>
-    <scoreDrl>org/kie/server/services/taskassigning/solver/taskAssigningScoreRules.drl</scoreDrl>
+    <ksessionName>taskAssigningKSession</ksessionName>
   </scoreDirectorFactory>
 
   <constructionHeuristic/>
