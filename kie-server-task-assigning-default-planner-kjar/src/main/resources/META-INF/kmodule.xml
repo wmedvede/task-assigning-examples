@@ -4,4 +4,9 @@
   <kbase name="taskAssigningKBase" packages="org.kie.server.services.taskassigning.solver">
     <ksession name="taskAssigningKSession"/>
   </kbase>
+
+  <kbase name="taskAssigningCustomKBase" packages="org.kie.server.services.taskassigning.solver.custom">
+    <ksession name="taskAssigningCustomKSession"/>
+  </kbase>
+
 </kmodule>

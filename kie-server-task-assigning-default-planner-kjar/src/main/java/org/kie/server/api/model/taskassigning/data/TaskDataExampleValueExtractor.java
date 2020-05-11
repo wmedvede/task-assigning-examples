@@ -55,6 +55,10 @@ public class TaskDataExampleValueExtractor implements LabelValueExtractor<TaskDa
     public Set<Object> extract(TaskData source) {
         Map<String, Object> inputs = source.getInputData();
         Object value = inputs != null ? inputs.get("skills") : null;
-        return value != null ? new HashSet<Object>(Collections.singleton(value)) : null;
+        return value != null && !isEmptyString(value) ? new HashSet<Object>(Collections.singleton(value)) : null;
+    }
+
+    public boolean isEmptyString(Object value) {
+        return (value instanceof String) && ((String)value).isEmpty();
     }
 }

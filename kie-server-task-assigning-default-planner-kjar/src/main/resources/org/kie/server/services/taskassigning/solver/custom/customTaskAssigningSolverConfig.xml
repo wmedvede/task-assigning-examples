@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solver>
 
-  <solutionClass>org.kie.server.services.taskassigning.core.model.DefaultTaskAssigningSolution</solutionClass>
+  <solutionClass>org.kie.server.api.model.taskassigning.custom.ExampleSolution</solutionClass>
   <entityClass>org.kie.server.services.taskassigning.core.model.TaskOrUser</entityClass>
   <entityClass>org.kie.server.services.taskassigning.core.model.Task</entityClass>
 
   <daemon>true</daemon>
 
   <scoreDirectorFactory>
-    <ksessionName>taskAssigningKSession</ksessionName>
+    <ksessionName>taskAssigningCustomKSession</ksessionName>
   </scoreDirectorFactory>
 
   <constructionHeuristic/>

@@ -8,7 +8,7 @@
   <parent>
     <groupId>org.kie.server</groupId>
     <artifactId>task-assigning-examples</artifactId>
-    <version>7.37.0-SNAPSHOT</version>
+    <version>7.38.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>kie-server-task-assigning-user-system-db-kjar</artifactId>
